@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  .App{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+    min-height: 100vh;
+  }
+  /* #table{
+    margin: auto;
+  } */
+  button{
+    margin-bottom: 30px;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    color: #000;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  #table *{
+    border: 1px solid #000;
+  }
+  
+  .show{
+    display: block;
+  }
+  .hide{
+    display: none;
+  }
